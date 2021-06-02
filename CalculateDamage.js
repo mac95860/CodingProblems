@@ -1,9 +1,11 @@
 // Create a function that takes damage and speed (attacks per second) and returns the amount of damage after a given time.
 
 const damage = (damage, speed, time) => {
-   totalDamage = time === "second" ? damage * speed : 
-                 time === "minute" ? damage * speed * 60 : 
-                 time === "hour" ? damage * speed * 3600 : null
+   const calculate = damage * speed;
+
+   totalDamage = time === "second" ? calculate : 
+                 time === "minute" ? calculate * 60 : 
+                 time === "hour" ? calculate * 3600 : null
     
     console.log(totalDamage);
 }
