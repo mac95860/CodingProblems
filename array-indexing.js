@@ -8,10 +8,7 @@ i1 = 10 / 2;
 i2 = 8.0 / 2;
 i3 = 6.535355314 / 2;
 
-function valueAt(arr, i) {
-    const index = Math.floor(i);
-    console.log(arr[index])
-}
+const valueAt = (arr, i) => console.log( arr[~~i] );
 
 valueAt(array1, i1); // 6
 valueAt(array2, i2); // 5
