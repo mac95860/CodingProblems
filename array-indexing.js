@@ -8,6 +8,7 @@ i1 = 10 / 2;
 i2 = 8.0 / 2;
 i3 = 6.535355314 / 2;
 
+//use bitwise operator
 const valueAt = (arr, i) => console.log( arr[~~i] );
 
 valueAt(array1, i1); // 6
