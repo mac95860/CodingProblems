@@ -9,3 +9,4 @@ function area(n) {
 area(1); // 2.6
 area(2); // 10.4
 area(3); // 23.4
+area(4); // 41.6
