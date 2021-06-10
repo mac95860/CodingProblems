@@ -6,6 +6,6 @@ const string3 = "Cause baby you're a firework";
 
 const owofied = str => console.log( str.replace("i", "wi").replace("e", "we") + " owo" );
 
-owofied(string1);
+owofied(string1); 
 owofied(string2);
 owofied(string3);
