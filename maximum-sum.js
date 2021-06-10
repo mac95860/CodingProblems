@@ -4,7 +4,6 @@ array1 = [1, 2, 0, 1, 3, 10, 10, 10, 10, 2];
 array2 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 100];
 array3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-
 const maximumTotal = array => {
     const reducer = (acc, curr) => acc + curr;
     array.sort((a, b) => {
