@@ -1,3 +1,5 @@
+# create a function that would exclude the unwanted character at the end of a list and return a string
+
 list = ["h", "e", "l", "l", "o", "\o"]
 list2 = ["H", "e", "l", "l", "o", "!", "\0"]
 list3 = ["J", "A", "V", "a", "\0"]
