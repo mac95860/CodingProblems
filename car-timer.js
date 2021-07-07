@@ -17,7 +17,6 @@ function carTimer(n) {
         }
     }
     
-    
     return arr.reduce(reducer);
 }
 
