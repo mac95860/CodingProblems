@@ -4,7 +4,7 @@
 
 function sayWhat(obj) {
   const arr = Object.values(obj);
-  arr[4] = obj[2];
+  arr[3] = obj[2];
   console.log(arr.join(' '));
 
 }
