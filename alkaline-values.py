@@ -4,7 +4,7 @@
 def pH_name(pH):
     if pH > 0 and pH <= 6:
         print('acidic')
-    elif pH == 7:
+    elif pH >= 7 and pH < 8:
         print('neutral')
     elif pH >= 8 and pH <= 14:
         print('alkaline')
