@@ -1,3 +1,5 @@
+# You have to create a function that takes two integers n and d and makes a list of squares of all numbers from 0...<= n and returns the count of the digits d in the list
+
 def count_digits(n, d):
     d = str(d)
     arr = []
@@ -10,5 +12,7 @@ def count_digits(n, d):
     
     print(string.count(d))
 
-count_digits(10, 1)
+count_digits(10, 1) # 4
+count_digits(25, 2) # 9
+
          
