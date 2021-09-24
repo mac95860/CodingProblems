@@ -3,9 +3,7 @@
 # times the string is to be repeated.
 
 def repetition(txt, n):
-    for i in range(0, n - 1):
-        txt = txt + txt
-    return txt
+    return txt * n
 
 print(repetition("cherry", 2)) # cherrycherry
 print(repetition("kiwi", 1)) # kiwi
